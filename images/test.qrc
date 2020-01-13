@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="new prefix">
+    <file>test.qrc</file>
+    <file>spinner.gif</file>
+  </qresource>
+</RCC>

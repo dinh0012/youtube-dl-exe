@@ -1,0 +1,5 @@
+youtube_dl
+PyQt5
+PyQt5Designer
+pyqt5-tools
+var_dump
