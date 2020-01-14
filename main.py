@@ -71,18 +71,10 @@ class mywindow(QtWidgets.QMainWindow):
 
     def get_format(self):
         format = self.ui.formatVideo.currentText()
-        checkboxes_checked = self.get_checkbox_checked()
-        if len(checkboxes_checked) == 0:
-            return []
-        postprocessors_checkboxes = []
-        postprocessors = self.postprocessors()
-        for checkbox in checkboxes_checked:
-            key = checkbox.text().lower()
-            if key in postprocessors:
-                postprocessors_checkboxes.append(postprocessors[key])
-        return postprocessors_checkboxes
+        formats_support = self.formats_convert_support()
+        return formats_support[format]
 
-    def postprocessors(self):
+    def formats_convert_support(self):
         return {
             "mp3": {
                 'format': "bestaudio",
@@ -112,16 +104,13 @@ class mywindow(QtWidgets.QMainWindow):
             row = self.rowcount
 
         directory = str(self.ui.txtDir.text())
-        postprocessors = self.get_format()
-        if len(postprocessors) == 0:
-            self.msgbox("Please select format to convert!")
-            return
+        format_select = self.get_format()
         options = {
             'url': url,
             'directory': directory,
             'rowcount': row,
             'proxy': '',
-            'postprocessors': postprocessors,
+            'format': format_select,
             'parent': self,
         }
 

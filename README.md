@@ -15,4 +15,4 @@ pyuic5 yuotube-dl.ui -o mydesign.py
 # document 
 https://doc.qt.io/qtforpython
 # run 
-`python main.py`
+`python3 main.py`

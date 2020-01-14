@@ -2,21 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4cd7cf1-9da6-45a1-8f7c-447ae81c6e7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads/Download.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/yotube-dl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/yotube-dl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mydesign.py" beforeDir="false" afterPath="$PROJECT_DIR$/mydesign.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuotube-dl.ui" beforeDir="false" afterPath="$PROJECT_DIR$/yuotube-dl.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threads/Download.py" beforeDir="false" afterPath="$PROJECT_DIR$/threads/Download.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="yotube-dl" />
@@ -101,7 +109,8 @@
       <workItem from="1578772664106" duration="1380000" />
       <workItem from="1578799677624" duration="4729000" />
       <workItem from="1578882522947" duration="1335000" />
-      <workItem from="1578883872159" duration="22130000" />
+      <workItem from="1578883872159" duration="22542000" />
+      <workItem from="1578969936590" duration="1171000" />
     </task>
     <servers />
   </component>

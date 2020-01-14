@@ -19,7 +19,7 @@ class Download(QtCore.QThread):
         if self.directory is not '':
             self.directory = os.path.join(opts.get('directory'), '')
         self.local_rowcount = opts.get('rowcount')
-        self.postprocessors = opts.get('postprocessors')
+        self.format = opts.get('format')
         self.proxy = opts.get('proxy')
         self.keep_file = opts.get('keep_file')
 
@@ -82,10 +82,12 @@ class Download(QtCore.QThread):
             'outtmpl': '{0}%(title)s.%(ext)s'.format(self.directory),
             'continuedl': True,
             'quiet': True,
-            'postprocessors': self.postprocessors,
+            'format': self.format['format'],
             #'keepvideo': True,
             'proxy': self.proxy,
         }
+        if 'postprocessors' in self.format:
+            ydl_options['postprocessors'] = [self.format['postprocessors']]
 
         if self.keep_file:
             ydl_options['keepvideo'] = True
